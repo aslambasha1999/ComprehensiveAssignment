@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MakeMyTrip Test Suite">
+    <test name="Verify Logo on Firefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="SeleniumWebdriver.Assignment.MakeMyTripTest">
+                <methods>
+                    <include name="verifyLogoPresent" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Search Flights on Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="SeleniumWebdriver.Assignment.MakeMyTripTest">
+                <methods>
+                    <include name="searchFlights" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

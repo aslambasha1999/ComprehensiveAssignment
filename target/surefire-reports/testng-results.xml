@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[FireFox Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[URL Launched]]>
+    </line>
+    <line>
+      <![CDATA[Make my trip Logo Successfully Verified]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Window Maximized]]>
+    </line>
+    <line>
+      <![CDATA[URL Launched]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Flights Menu]]>
+    </line>
+    <line>
+      <![CDATA[One Way Trip Button Selected]]>
+    </line>
+    <line>
+      <![CDATA[From City Entered]]>
+    </line>
+    <line>
+      <![CDATA[to City Entered]]>
+    </line>
+    <line>
+      <![CDATA[To City Selected from Suggestions]]>
+    </line>
+    <line>
+      <![CDATA[Selected Today's Date]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Search Button]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-11T10:24:47 IST" name="MakeMyTrip Test Suite" finished-at="2023-05-11T10:26:01 IST" duration-ms="73951">
+    <groups>
+    </groups>
+    <test started-at="2023-05-11T10:24:47 IST" name="Verify Logo on Firefox" finished-at="2023-05-11T10:24:58 IST" duration-ms="10736">
+      <class name="SeleniumWebdriver.Assignment.MakeMyTripTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:SeleniumWebdriver.Assignment.MakeMyTripTest@212b5695]" started-at="2023-05-11T10:24:47 IST" name="setUp" finished-at="2023-05-11T10:24:57 IST" duration-ms="9440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[FireFox Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[URL Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoPresent()[pri:0, instance:SeleniumWebdriver.Assignment.MakeMyTripTest@212b5695]" started-at="2023-05-11T10:24:57 IST" name="verifyLogoPresent" finished-at="2023-05-11T10:24:57 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Make my trip Logo Successfully Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumWebdriver.Assignment.MakeMyTripTest@212b5695]" started-at="2023-05-11T10:24:57 IST" name="tearDown" finished-at="2023-05-11T10:24:58 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumWebdriver.Assignment.MakeMyTripTest -->
+    </test> <!-- Verify Logo on Firefox -->
+    <test started-at="2023-05-11T10:24:58 IST" name="Search Flights on Chrome" finished-at="2023-05-11T10:26:01 IST" duration-ms="63184">
+      <class name="SeleniumWebdriver.Assignment.MakeMyTripTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:SeleniumWebdriver.Assignment.MakeMyTripTest@342c38f8]" started-at="2023-05-11T10:24:58 IST" name="setUp" finished-at="2023-05-11T10:25:05 IST" duration-ms="7268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Window Maximized]]>
+            </line>
+            <line>
+              <![CDATA[URL Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchFlights()[pri:0, instance:SeleniumWebdriver.Assignment.MakeMyTripTest@342c38f8]" started-at="2023-05-11T10:25:05 IST" name="searchFlights" finished-at="2023-05-11T10:26:01 IST" duration-ms="55204" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Flights Menu]]>
+            </line>
+            <line>
+              <![CDATA[One Way Trip Button Selected]]>
+            </line>
+            <line>
+              <![CDATA[From City Entered]]>
+            </line>
+            <line>
+              <![CDATA[to City Entered]]>
+            </line>
+            <line>
+              <![CDATA[To City Selected from Suggestions]]>
+            </line>
+            <line>
+              <![CDATA[Selected Today's Date]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Search Button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumWebdriver.Assignment.MakeMyTripTest@342c38f8]" started-at="2023-05-11T10:26:01 IST" name="tearDown" finished-at="2023-05-11T10:26:01 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumWebdriver.Assignment.MakeMyTripTest -->
+    </test> <!-- Search Flights on Chrome -->
+  </suite> <!-- MakeMyTrip Test Suite -->
+</testng-results>
